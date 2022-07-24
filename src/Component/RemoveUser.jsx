@@ -1,5 +1,5 @@
 import * as React from "react";
-//import Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import react, { useState, useEffect } from "react";
 import {
@@ -11,9 +11,9 @@ import {
   styled,
   Typography,
 } from "@mui/material";
-//import { addUser } from "../Service/api";
+import { addUser } from "../Service/api";
 import { useNavigate, useParams } from "react-router-dom";
-import {addUser, getUsers, deleteUser } from "../Service/api";
+import { getUsers, deleteUser } from "../Service/api";
 
 const initialValue = {
   studentName: "",
