@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Table,
-  TableHead,
-  TableCell,
-  Paper,
-  TableRow,
-  TableBody,
-  Button,
-  styled,
-  Box,
-} from "@mui/material";
+import {  Box} from "@mui/material";
 
 const SchoolSpace = () => {
   return (
@@ -35,10 +25,7 @@ const SchoolSpace = () => {
             style={{
               width: "60px",
               height: "40px",
-              // border: "2px solid red",
-
-              width: "60px",
-              height: "48px",
+              // border: "2px solid red"
               left: "30px",
               top: "40px",
               borderRadius: "8px",

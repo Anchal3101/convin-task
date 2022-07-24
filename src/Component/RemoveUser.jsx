@@ -11,9 +11,9 @@ import {
   styled,
   Typography,
 } from "@mui/material";
-import { addUser } from "../Service/api";
+//import { addUser } from "../Service/api";
 import { useNavigate, useParams } from "react-router-dom";
-import { getUsers, deleteUser } from "../Service/api";
+import { addUser, getUsers, deleteUser } from "../Service/api";
 
 const initialValue = {
   studentName: "",
@@ -73,7 +73,7 @@ export default function RemoveUser() {
         onClose={handleClose}
         aria-labelledby="keep-mounted-modal-title"
         aria-describedby="keep-mounted-modal-description"
-      >
+  >
         <Container
           style={{
             backgroundColor: "white",
@@ -102,7 +102,7 @@ export default function RemoveUser() {
               margin: "auto",
               width: "500px",
               height: "auto",
-              // border: "1px solid red",
+                            // border: "1px solid red",
             }}
           >
             <div
